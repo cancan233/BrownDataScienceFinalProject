@@ -1,4 +1,4 @@
-# **Musical Tribes**
+# **Sound of Censorship**
 
 Note: This repository is for final project of Brown CS1951A Data Science course. 
 
