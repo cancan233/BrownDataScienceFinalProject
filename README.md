@@ -16,7 +16,7 @@ We would like to get an analysis on how censorship affects the listening habits 
 
 | Materials for assignment        | Update Date |
 | :------------------------------ | :---------- |
-| [Pre-proposal](./Pre-Proposal)  | March 13    |
+| [Pre-proposal](./Pre-Proposal.pdf)  | March 13    |
 | [Blog Post I]()                 |             |
 | [Midterm Report]()              |             |
 | [Blog Post II]()                |             |
