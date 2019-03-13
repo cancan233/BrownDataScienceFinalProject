@@ -9,7 +9,18 @@ Note: This repository is for final project of Brown CS1951A Data Science course.
 * Cancan Huang <a href="cancan_huang@brown.edu">cancan_huang@brown.edu</a>
 
 ## **Expectations**
-We would like to get an analysis on people's taste of music, a clear visualization on the "tribes/clusters" of music listeners, and possibly a recommendation algorithm based on the way we have classified people's taste. We would like to find out the prominent features that make the decision between one taste to the other and what it takes for a music piece to be more popular than the other.
 
-## [**Preproposal**](./Pre-proposal.pdf)
+We would like to get an analysis on how censorship affects the listening habits of a user and how this is controlled by predictors like user information and ocuntry indexes/ranking. For example, are younger people more willing to use the Internet as a resource to go around censorship when the content involves music? The [LFM-1b dataset](http://www.cp.jku.at/datasets/LFM-1b/) collected from Last FM is utilized for the country/age/listening habits of the user. The evaluation of freedom is extracted from international organizations like Freedom House or the World Bank. For more information about our project, please check [**materials for assignments**](## **Materials for Assignments**) part below.
+
+## **Materials for Assignments** ##
+
+| Materials for assignment        | Update Date |
+| :------------------------------ | :---------- |
+| [Pre-proposal](./Pre-Proposal)  | March 13    |
+| [Blog Post I]()                 |             |
+| [Midterm Report]()              |             |
+| [Blog Post II]()                |             |
+| [Poster]()                      |             |
+| [Final Project Presentations]() |             |
+| [Blog Post III]()               |             |
 
