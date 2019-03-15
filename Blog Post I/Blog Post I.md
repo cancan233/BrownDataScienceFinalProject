@@ -43,12 +43,13 @@ Other challenges that we think we might run into is the ratio of data per countr
 3. With the conclusions that we can draw from the tests, we want to prepare our predictive model (choose which features and what type of a ML model to use) that shows how the listening habit of a person might be predicted by these indicators.
 4. If we have time or think is of interest we would like to collect music features from Spotify. However, since the track and album datasets are very large we do not know if this is feasible. By next time we would like to either completely forget about this or start to do it.
 
-<img src="./Freedomhouse.png" width = "300" height = "200" alt="Freedom of the Press 2017" align=center />
-<center>**Source:** https://freedomhouse.org/report/freedom-press/freedom-press-2017 </center>
+<img src="./Freedomhouse.png">
+
+**Source:** https://freedomhouse.org/report/freedom-press/freedom-press-2017
 
 <figure class="half">
     <img src="./histogram_of_age_distribution.png">	
     <img src="./country_distribution.png">
 </figure>
+[**The LFM-1b Dataset for Music Retrieval and Recommendation**](http://www.cp.jku.at/people/schedl/Research/Publications/pdf/schedl_icmr_2016.pdf)
 
-<center> [**The LFM-1b Dataset for Music Retrieval and Recommendation**](http://www.cp.jku.at/people/schedl/Research/Publications/pdf/schedl_icmr_2016.pdf) </center>
