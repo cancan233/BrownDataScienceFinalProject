@@ -1,5 +1,9 @@
 # Blog Post I 
 
+<img src="./Freedomhouse.png">
+
+**Source:** [https://freedomhouse.org/report/freedom-press/freedom-press-2017](https://freedomhouse.org/report/freedom-press/freedom-press-2017)
+
 ## Introduction
 
 Welcome to “The Sound of Censorship”. In this project we will be exploring how censorship affects the listening habits of a person. This will be accomplished by collecting 2 datasets, one involved with user listening habits and the other about countries’ freedom of expression situation. We will be trying to find what type of predictors like user data (ex: age, country…) or country data (ex: press freedom index, internet freedom rankings...) affect these habits (ex: how many novel artists has the user listened this past week, how are different age groups affected by this?).
@@ -43,12 +47,10 @@ Other challenges that we think we might run into is the ratio of data per countr
 3. With the conclusions that we can draw from the tests, we want to prepare our predictive model (choose which features and what type of a ML model to use) that shows how the listening habit of a person might be predicted by these indicators.
 4. If we have time or think is of interest we would like to collect music features from Spotify. However, since the track and album datasets are very large we do not know if this is feasible. By next time we would like to either completely forget about this or start to do it.
 
-<img src="./Freedomhouse.png">
+<div style="float:left;border:solid 1px 000;margin:2px;"><img src="./histogram_of_age_distribution.png" width="410" height="350"></div>	
+<div style="float:left;border:solid 1px 000;margin:2px;"><img src="./country_distribution.png" width="410" height="350"></div>
 
-**Source:** https://freedomhouse.org/report/freedom-press/freedom-press-2017
 
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="./histogram_of_age_distribution.png" width="400" height="350"></div>	
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="./country_distribution.png" width="400" height="350"></div>
 
 [**The LFM-1b Dataset for Music Retrieval and Recommendation**](http://www.cp.jku.at/people/schedl/Research/Publications/pdf/schedl_icmr_2016.pdf)
 
