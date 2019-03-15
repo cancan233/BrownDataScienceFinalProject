@@ -47,8 +47,8 @@ Other challenges that we think we might run into is the ratio of data per countr
 
 **Source:** https://freedomhouse.org/report/freedom-press/freedom-press-2017
 
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="./histogram_of_age_distribution.png"></div>	
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="./country_distribution.png"></div>
+<div style="float:left;border:solid 1px 000;margin:2px;"><img src="./histogram_of_age_distribution.png" width="400" height="350"></div>	
+<div style="float:left;border:solid 1px 000;margin:2px;"><img src="./country_distribution.png" width="400" height="350"></div>
 
 [**The LFM-1b Dataset for Music Retrieval and Recommendation**](http://www.cp.jku.at/people/schedl/Research/Publications/pdf/schedl_icmr_2016.pdf)
 
