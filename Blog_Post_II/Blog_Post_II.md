@@ -7,27 +7,43 @@ So far in our journey to discover the relation between human listening habits an
 
 We first investigated this relation by looking at the correlation matrix between Internet freedom features and the count of novel artists listened to by the Last FM users.  Below we presented the correlation matrix and table between different features. We found out that the only features that had a little more than zero correlation was the count of novel artists listened to in an average of 6 months. And even that feature had less than 0.05 correlation with these internet freedom features. Therefore we were not able to refute the null hypothesis the freedom of expression in a country affects the number of new artists listened to by the users.
 
-![img](https://lh4.googleusercontent.com/7Zw2aIk1t1sGbRSyYyiuwPKx1sXVT-TgP2y1fhIbGr3ula3V9z4lri5dr-9uisbbPX0zzH-jyL-6hvxSEfu_QK7WChdoD5xU-2BMRptH8nh1hF_lAfxBl88u9QKrTz7OfKFWpUL7)*Correlation Matrix Visualization*
+![img](https://lh4.googleusercontent.com/7Zw2aIk1t1sGbRSyYyiuwPKx1sXVT-TgP2y1fhIbGr3ula3V9z4lri5dr-9uisbbPX0zzH-jyL-6hvxSEfu_QK7WChdoD5xU-2BMRptH8nh1hF_lAfxBl88u9QKrTz7OfKFWpUL7)
+
+<center>*Fig. 1: Correlation Matrix Visualization*</center>
 
 ![img](https://lh6.googleusercontent.com/MmuLx5UCitbWDPCh1Z0otHTRFTtzGHNDu6kdn04AejEnVk-GeUmxstyqMwyysbZXa9f-Fipp-_EW9YbtDeJJhljxKv_5MSqsMtfYuWgiPeQRslWzjoucqXrxz_zo4oiQaL2G-GGT)
+
+<center>*Fig. 2: Correlation Matrix Table*</center>
 
 ### **Relation between age /country Internet freedom features and the count of listening events**
 
 Next we investigated our very first hypothesis from our blogpost by using a kMeans. For this we used scikit-learn’s kMeans algorithm to achieve the kMeans analysis. ‘Access-block’ is used to represent the internet ranking while the other features already have  their own corresponding columns. To find the optimal number of centroids, we plotted the Elbow Curve. The score is used to represent the accuracy of our model. And we see that the graph levels off rapidly after 3 clusters, implying that addition of more clusters do not improve our model but may increase the chance of overfitting.
 
-![img](https://lh6.googleusercontent.com/3KeqISU4YlScxNkA9DPnZeMLF4ssHH63RbFS-nLFiuw9DTHACTwABNDKJIX7clKmQMfYvK1TBQ4SJqbQnBBE_oMU2Df1FvMxas7pq_b7pPlrY8i6TOzhnWP448B6JcEbMrXxpFaO)
+<p align="center">
+  <img src="https://lh6.googleusercontent.com/3KeqISU4YlScxNkA9DPnZeMLF4ssHH63RbFS-nLFiuw9DTHACTwABNDKJIX7clKmQMfYvK1TBQ4SJqbQnBBE_oMU2Df1FvMxas7pq_b7pPlrY8i6TOzhnWP448B6JcEbMrXxpFaO">
+</p>
+
+<center>*Fig. 3: Elbow Curve of KMeans training*</center>
 
 After we got the optimal number of centroids, we plotted the result of kMeans using k=3. As we can see from the figure, the data points are simply categorized based upon the age of users regardless the number of ‘access block’. This potentially implies that there is no significance relationship between a user’s age, their internet accessibility and their listening habits. In other words, people are affected quite evenly by the government no matter how old they are. 
 
-![img](https://lh4.googleusercontent.com/cB4oPfckDIhfxgMJ2PogQ-M8lYnyydxYY9cl9Wsp4Y0oFLG6PNQvhykgl1rTiWpPWfsDnEAbUE6A7riN7z-HqAG8tWawAGX3xxDA14HrgCmPMRBxcfT-O9gH83vQ9KY0_lGflytn)
+<p align="center">
+  <img src="https://lh4.googleusercontent.com/cB4oPfckDIhfxgMJ2PogQ-M8lYnyydxYY9cl9Wsp4Y0oFLG6PNQvhykgl1rTiWpPWfsDnEAbUE6A7riN7z-HqAG8tWawAGX3xxDA14HrgCmPMRBxcfT-O9gH83vQ9KY0_lGflytn">
+</p>
+
+<center>*Fig. 4: Result of Kmeans(k=3)*</center>
 
 ### **Relation between mainstream-ness of listening and freedom of expression features**
 
 In addition to the analysis we did for our midterm, we also looked at relations between freedom of expression features and the mainstream-ness of the songs listened to by the users, as it was one of our other hypothesis. When we plotted the density relationship between a country’s freedom of expression features whether it was press or Internet,  we can see that the density showed a constant line of mainstream music listening across all freedom scores. Although we expected that more popular music would be less listened to in countries with less freedom of expression because of censorship, this seems to be unvarying. Therefore once again we cannot refute the null hypothesis the mainstream-ness of the music is unaffected by the freedom of expression of the country where the listener is located.
 
-![img](https://lh6.googleusercontent.com/wCQZSaRqSaUBmLqKo9mxWBjO5jKSVgYf8bYl_-2tRbPVWII1KihYjxfS7gwp47JYQkC5lMelnHUfYC9xmjStLgUTQLJM2KWm7felC3K-Zka47lxJkqzdgkRDsAFk_BIg1a7EDriu)
+<p align="center">
+  <img src="https://lh6.googleusercontent.com/wCQZSaRqSaUBmLqKo9mxWBjO5jKSVgYf8bYl_-2tRbPVWII1KihYjxfS7gwp47JYQkC5lMelnHUfYC9xmjStLgUTQLJM2KWm7felC3K-Zka47lxJkqzdgkRDsAFk_BIg1a7EDriu">
+</p>
 
-![img](https://lh6.googleusercontent.com/F8FDh6cv1fHK__tHiztbGn0MPUCC65JyWFQOIRGkSVODV1Wx4HFwP6NHLJ04NNp2B8dYZPKH_KLZpm4Xg5ssap9PZ28zkoud5pnNs9BONJJQWoUptNaCKK6HhDpMFcPgAC4-xIXg)
+<p align="center">
+  <img src="https://lh6.googleusercontent.com/F8FDh6cv1fHK__tHiztbGn0MPUCC65JyWFQOIRGkSVODV1Wx4HFwP6NHLJ04NNp2B8dYZPKH_KLZpm4Xg5ssap9PZ28zkoud5pnNs9BONJJQWoUptNaCKK6HhDpMFcPgAC4-xIXg">
+</p>
 
 ## Investigation as why we get inconclusive results
 
