@@ -18,8 +18,8 @@ We would like to get an analysis on how censorship affects the listening habits 
 | :------------------------------ | :---------- |
 | [Pre-proposal](./pre_proposal.pdf) | March 13    |
 | [Blog Post I](./Blog_Post_I/Blog_Post_I.md) | March 15 |
-| [Midterm Report]()              |             |
-| [Blog Post II]()                |             |
+| [Midterm Report](./Midterm_Report.pdf)| April 05|
+| [Blog Post II](./Blog_Post_II/Blog_Post_II.md)| April 19|
 | [Poster]()                      |             |
 | [Final Project Presentations]() |             |
 | [Blog Post III]()               |             |
