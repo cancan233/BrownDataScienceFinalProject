@@ -20,7 +20,6 @@ We would like to get an analysis on how censorship affects the listening habits 
 | [Blog Post I](./Blog_Post_I/Blog_Post_I.md) | March 15 |
 | [Midterm Report](./Midterm_Report.pdf)| April 05|
 | [Blog Post II](./Blog_Post_II/Blog_Post_II.md)| April 19|
-| [Poster]()                      |             |
-| [Final Project Presentations]() |             |
-| [Blog Post III]()               |             |
+| [Poster](./Sound_of_censorship.pdf) | April 29 |
+| [Blog Post III](./Blog_Post_III/Blog_Post_III.md) | May 4 |
 
