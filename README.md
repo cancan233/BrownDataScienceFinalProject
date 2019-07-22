@@ -10,7 +10,7 @@ Note: This repository is for final project of Brown CS1951A Data Science course.
 
 ## **Expectations**
 
-We would like to get an analysis on how censorship affects the listening habits of a user and how this is controlled by predictors like user information and ocuntry indexes/ranking. For example, are younger people more willing to use the Internet as a resource to go around censorship when the content involves music? The [LFM-1b dataset](http://www.cp.jku.at/datasets/LFM-1b/) collected from Last FM is utilized for the country/age/listening habits of the user. The evaluation of freedom is extracted from international organizations like Freedom House or the World Bank. For more information about our project, please check [**materials for assignments**](## **Materials for Assignments**) part below.
+We would like to get an analysis on how censorship affects the listening habits of a user and how this is controlled by predictors like user information and ocuntry indexes/ranking. For example, are younger people more willing to use the Internet as a resource to go around censorship when the content involves music? The [LFM-1b dataset](http://www.cp.jku.at/datasets/LFM-1b/) collected from Last FM is utilized for the country/age/listening habits of the user. The evaluation of freedom is extracted from international organizations like Freedom House or the World Bank. Check following files for more information about our project!
 
 ## **Materials for Assignments** ##
 
